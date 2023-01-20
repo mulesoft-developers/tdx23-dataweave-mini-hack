@@ -23,6 +23,35 @@ This repo contains the DataWeave scripts used at the TDX '23 mini-hack zone. The
 
 Converting XML to JSON can be challenging. Luckily you’ll use MuleSoft’s DataWeave programming language. DataWeave allows you to easily read and parse data from one format, transform it, and write it out as a different format."
 
+### Inbound Payload
+
+```
+<?xml version='1.0' encoding='UTF-8'?>
+<event>
+  <event_name>Trailblazer DX '23</event_name>
+  <event_start>2023/03/06</event_start>
+  <event_end>2023.03.08</event_end>
+  <product>
+    <name>MuleSoft</name>
+    <runtime>Mule 4</runtime>
+  </product>
+  <area>
+    <building>Moscone West</building>
+    <zone>Mini Hacks</zone>
+    <fun_rating>High</fun_rating>
+  </area>
+  <event_address>
+    <address>747 Howard Street</address>
+    <city>San Francisco</city>
+    <state>CA</state>
+    <postCode>94103</postCode>
+    <country>USA</country>
+  </event_address>
+  <team>Developer Advocates</team>
+  <mascot>Max</mascot>
+</event>
+```
+
 ### Required Output
 
 ```
