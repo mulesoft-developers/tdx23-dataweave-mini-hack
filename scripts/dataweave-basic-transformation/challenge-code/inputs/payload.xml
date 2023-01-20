@@ -5,11 +5,12 @@
   <product>
     <name>MuleSoft</name>
     <runtime>Mule 4</runtime>
+    <feature>DataWeave</feature>
   </product>
   <area>
     <building>Moscone West</building>
     <zone>Mini Hacks</zone>
-    <fun_rating>High</fun_rating>
+    <fun_rating>90</fun_rating>
   </area>
   <event_address>
     <address>747 Howard Street</address>
