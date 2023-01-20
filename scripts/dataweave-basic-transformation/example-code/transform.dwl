@@ -1,6 +1,8 @@
 %dw 2.0
 output application/json
 
+var load = if (payload.order.quantity > 10) "heavy" else "light"
+
 fun normalize(date) = (date) replace "/" with "-" replace "." with "-"
 ---
 {
@@ -11,4 +13,5 @@ fun normalize(date) = (date) replace "/" with "-" replace "." with "-"
     shippingto: payload.order.shipping_address.address ++ ', ' ++ payload.order.shipping_address.city,
     orderedon: normalize(payload.order.ordered_on),
     shippedon: normalize(payload.order.shipped_on),
+    weight: load
 }
