@@ -1,5 +1,4 @@
 %dw 2.0
-//This is where we specify the output format
 output application/json
 //These 3 dashes are the seperator between the header and body of your DataWeave code
 ---
