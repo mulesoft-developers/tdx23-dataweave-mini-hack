@@ -12,11 +12,11 @@
 </h4>
 	
 <h3 align="center">
-	MuleSoft mini-hack challenge and example set for TDX '23.<br><br>
+	MuleSoft mini-hack challenge and example - created for TDX '23.<br><br>
 </h3>
 
 ## Overview
-This repo contains the DataWeave scripts used at the TDX '23 mini-hack zone. The challenge was to convert xml to json using selectors, string concatenation, string functions and a function.
+This repo contains the DataWeave scripts used at the TDX '23 mini-hack zone. The challenge was to convert xml to json using selectors, string concatenation, string functions and a DataWeave custom function.
 
 ### Challenge Description
 "We’ve been tasked with integrating with a system that returns its payload as XML. This SOAP based web service returns a payload that needs to be transformed into a JSON payload for a downstream system. As part of the transformation we need to only include fields that are relevant to reduce the payload size and provide some formatting changes to some payload values.
