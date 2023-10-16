@@ -1,0 +1,24 @@
+<event>
+  <event_name>Trailblazer DX 23</event_name>
+  <event_start>2023/03/06</event_start>
+  <event_end>2023.03.08</event_end>
+  <product>
+    <name>MuleSoft</name>
+    <runtime>Mule 4</runtime>
+    <feature>DataWeave</feature>
+  </product>
+  <area>
+    <building>Moscone West</building>
+    <zone>Mini Hacks</zone>
+    <fun_rating>90</fun_rating>
+  </area>
+  <event_address>
+    <address>747 Howard Street</address>
+    <city>San Francisco</city>
+    <state>CA</state>
+    <postCode>94103</postCode>
+    <country>USA</country>
+  </event_address>
+  <team>Developer Advocates</team>
+  <mascot>Max</mascot>
+</event>
